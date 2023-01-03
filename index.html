@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Ifood</title>
+</head>
+<body>
+    <section class="inicio">
+        <div class="textInicio">
+            <h1>
+                BoxFood
+            </h1>
+
+            <p>Monte seu pedido</p>
+        </div>
+    </section>
+
+    <div class="pratos">
+        <h1>Primeiro seu Prato!</h1>
+    </div>
+    <div class="container" id="frango" onclick="frango()">
+        
+        <h3 class="nomeComida">Frango</h3>
+        <p class="precoComida">R$ 19,90 </p>
+        <img src="/images/frango.jpg" alt="">
+    </div>
+
+    <div class="container" id="salada" onclick="salada()">
+        <h3 class="nomeComida">Salada</h3>
+        <p class="precoComida">R$ 19,90 </p>
+        <img src="/images/salada.png" alt="">
+    </div>
+
+    <div class="container" id="macarrao" onclick="macarrao()"> 
+        <h3 class="nomeComida">Macarrão</h3>
+        <p class="precoComida">R$ 19,90 </p>
+        <img src="/images/macarrao.png" alt="">
+    </div>
+
+    <button class="btn" onclick="finalizarPedido()">Finalizar Pedido</button>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
